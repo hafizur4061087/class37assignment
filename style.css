@@ -1,0 +1,25 @@
+body img{
+    max-width: 100%;
+}
+.blog_content h6{
+    color: #6789ef;
+}
+.blog_content h1{
+    text-transform: capitalize;
+}
+.blog_content h1::after {
+    content: "";
+    height: 2px;
+    width: 63px;
+    background: #6789ef;
+    position: absolute;
+    top: 137px;
+    left: 638px;
+}
+.blog_content p {
+    font-size: 20px;
+    margin-bottom: 53px;
+}
+.thumbnail_content p{
+    font-size: 15px;
+}
